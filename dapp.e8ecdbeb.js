@@ -68010,7 +68010,8 @@ var dApp = {
             case 0:
               tokenId = $(event.target).attr("id");
               wei = Number($(event.target).prev().val());
-              this.marsContract.methods.bid(tokenId).send({
+              _context6.next = 4;
+              return this.marsContract.methods.bid(tokenId).send({
                 from: this.accounts[0],
                 value: wei
               },
@@ -68033,7 +68034,7 @@ var dApp = {
                 }, _callee5);
               })));
 
-            case 3:
+            case 4:
             case "end":
               return _context6.stop();
           }
@@ -68172,7 +68173,7 @@ var dApp = {
                   while (1) {
                     switch (_context11.prev = _context11.next) {
                       case 0:
-                        $("#dapp-register-name").val("");
+                        $("#dapp-register-image").val("");
                         $("#dapp-register-image").val("");
                         _context11.next = 4;
                         return _this5.updateUI();
