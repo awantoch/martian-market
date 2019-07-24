@@ -1,5 +1,5 @@
 # Martian Market dapp
 
-This dapp is deployed on Ropsten at the following address:
+This dapp is deployed on Kovan at the following address:
 
-`0x7909DDa961fB2D8532D12888E2E6c9fEAc65b300`
+`0xd1AD834c38153CF8c097CEC839f483447635bCe3`
